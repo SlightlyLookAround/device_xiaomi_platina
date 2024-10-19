@@ -87,3 +87,7 @@ TW_SCREEN_BLANK_ON_BOOT := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_TOOLBOX := true
 TW_MAX_BRIGHTNESS := 4095
+
+# Configurations for crypto
+TW_INCLUDE_CRYPTO := true
+BOARD_USES_QCOM_FBE_DECRYPTION := true
