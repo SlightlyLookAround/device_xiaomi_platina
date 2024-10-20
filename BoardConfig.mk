@@ -88,6 +88,9 @@ TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_TOOLBOX := true
 TW_MAX_BRIGHTNESS := 4095
 
+# Specific Configuration
+TW_EXCLUDE_APEX := true
+
 # Configurations for crypto
 TW_INCLUDE_CRYPTO := true
 BOARD_USES_QCOM_FBE_DECRYPTION := true
